@@ -1,4 +1,4 @@
-"""Functions to load and filter the network"""
+"""Functions to load and filter the network """
 
 import pandas as pd
 import numpy as np
