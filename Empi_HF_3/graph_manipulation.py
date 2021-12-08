@@ -18,7 +18,7 @@ def create_graph_from_nodes_and_edges(nodes, edges):
 
 
 def get_nbrs_for_node(node_id, G):
-    """Return ids of nbrs of node"""
+    """Return ids of nbrs of node """
     return list(dict(G[node_id]).keys())
 
 
