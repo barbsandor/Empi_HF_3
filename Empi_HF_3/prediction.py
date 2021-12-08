@@ -22,7 +22,7 @@ def add_node_genders_to_edges(nodes, edges):
         left_on="id_2",
         right_index=True,
     )
-    """Mivel a szomszédokhoz tartozik ez a nem, átnevezem gender_pairre"""
+    """Mivel a szomszédokhoz tartozik ez a nem, átnevezem gender_pairre."""
     edges_w_genders.rename(columns={"gender":"gender_pair"},inplace=True)
     edges_w_genders = edges_w_genders.merge(
         nodes[["user_id","gender","TRAIN_TEST"]].set_index("user_id"),
