@@ -108,7 +108,7 @@ def figure4(edges_w_features):
     
 
 def figure5(edges_w_features):
-    """Heatmap-ek gender páronként, valamint összesítve, kor szerint (logaritmizált skálán)"""
+    """Heatmap-ek gender páronként, valamint összesítve, kor szerint (logaritmizált skálán) """
     fig, axes = plt.subplots(2, 2, figsize=(15, 15))
     fig.suptitle('Figure 5',size=25)
 
